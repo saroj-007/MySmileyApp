@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1090355489637",
+    "project_id": "fluttersmileyappbase",
+    "storage_bucket": "fluttersmileyappbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090355489637:android:c12e1f9d64fd8d2ec98f8c",
+        "android_client_info": {
+          "package_name": "com.example.smileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090355489637-cs6fl447ii72ltuoc9290j9fc9lou9sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smileapp",
+            "certificate_hash": "5effba753c85d277d4d16510d94c12dddbfd9d1d"
+          }
+        },
+        {
+          "client_id": "1090355489637-ohv2qnpfu2ig1ncsv8hea3msdvvlcc2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmqxDNCiRvgIDsy0gRzUmsMJjGajHOKDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090355489637-ohv2qnpfu2ig1ncsv8hea3msdvvlcc2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
