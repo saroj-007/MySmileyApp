@@ -1,12 +1,13 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:smileapp/gamescreen.dart';
+import 'package:smileapp/view/homescreen.dart';
 import 'package:smileapp/model/callapi.dart';
 import 'package:smileapp/provider/timer.dart';
-import 'package:smileapp/registrationform.dart';
+import 'package:smileapp/view/registrationform.dart';
 import 'package:smileapp/view/dropdownmenu.dart';
 import 'loginpractice.dart';
-import 'login.dart';
+import 'view/login.dart';
 
 void main() async {
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
       ),
-     home: TimerScreen(),
+     home: login(),
     );
   }
 }

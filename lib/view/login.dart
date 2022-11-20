@@ -1,6 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:smileapp/forgotpassword.dart';
-import 'package:smileapp/registrationform.dart';
+import 'package:smileapp/view/forgotpassword.dart';
+import 'package:smileapp/view/homescreen.dart';
+import 'package:smileapp/view/registrationform.dart';
 
 class login extends StatefulWidget {
   const login({super.key});
@@ -113,7 +115,14 @@ class _loginState extends State<login> {
             ),
                     onPressed: () {
                       if (_formKey.currentState!.validate()){
-                        print(email.text);
+                        FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text, password: password.text).then(
+                          (value) {
+                            print("Login Successfully");
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                          }).onError((error, stackTrace) {
+                            print("Error ${error.toString()}");
+                          },);
+                        
                       }
                     }, 
                     child: const Text('Login', 

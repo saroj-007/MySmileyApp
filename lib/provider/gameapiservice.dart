@@ -18,22 +18,4 @@ class SmileyApi {
        }
   }
 
-  // Future<dynamic> getData() async {
-  //   try{
-  //     final response = await http.get(Uri.parse(url),
-  //   //  log("Fetch data ${response.body}}");
-  //     );
-  //     if (response.statusCode == 200){
-  //       return jsonDecode(response.body);
-  //     }
-  //     else{
-  //       return null;
-  //     }
-      
-  //   }
-  //   catch (e) {
-  //     print("Error");
-  //   }
-  // }
-
 }
