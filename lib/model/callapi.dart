@@ -1,5 +1,5 @@
 
-import 'package:smileapp/gameapiservice.dart';
+import 'package:smileapp/provider/gameapiservice.dart';
 
 class GetApiData{
   
